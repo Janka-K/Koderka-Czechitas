@@ -1,0 +1,80 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #333;
+    margin:0px;
+}
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #555;
+    margin: 0 auto;
+    max-width: 50em;
+    padding: 4em 1em;
+
+}
+
+.kontakty img{
+    margin: 5px;
+}
+
+.paticka{
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+h3{
+    border-bottom: 2px solid #c0c0c0;
+    margin-top: 1em;
+    padding-top: 1em;
+    color: #333;
+}
+
+a{
+    color: #e81c4f;
+}
+
+.fa-linkedin-square, .fa-medium{
+    font-size: 20px;
+    color: black;
+    margin: 5px;
+}
+
+
+.material-icons{
+    margin: 5px;
+    
+}
+
+.kontakty table {
+    width: 100%;
+    margin: 10px auto 10px auto;
+    border-spacing: 0;
+    
+}
+
+td {
+    text-align: center;
+    padding: 3px;
+    font-size: 12px;
+    margin:0;
+}
+
+.phone {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* 
+
+- je potreba dodat fotografii
+- dodat ikonky do jenotlivych sekci
+- zkusit barevne nastylovat stranku
+- pokusit se udelat tabulku pro znalosti a dovednosti 
+- pokusit se upravit styly pro kurzy od Gopasu - aby nebylo tucne
+- poresit paticku 
+*/
