@@ -6,6 +6,7 @@ h1{
     margin:0px;
 }
 
+
 body {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 15px;
@@ -14,6 +15,7 @@ body {
     margin: 0 auto;
     max-width: 50em;
     padding: 4em 1em;
+    text-align: justify;
 
 }
 
@@ -24,8 +26,10 @@ body {
 .paticka{
     text-align: center;
     padding: 20px 0;
-}
+    border-top: 2px solid #c0c0c0;
+    margin-top: 100px;
 
+}
 
 h3{
     border-bottom: 2px solid #c0c0c0;
@@ -33,6 +37,7 @@ h3{
     padding-top: 1em;
     color: #333;
 }
+
 
 a{
     color: #e81c4f;
@@ -54,6 +59,13 @@ a{
     width: 100%;
     margin: 10px auto 10px auto;
     border-spacing: 0;
+       
+}
+
+.kanclprogramy{
+    width: 100%;
+    border-spacing: 0;
+    margin-bottom: 40px;
     
 }
 
@@ -64,17 +76,55 @@ td {
     margin:0;
 }
 
-.phone {
-    text-align: right;
-    font-weight: bold;
+.kanclprogramy td {
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    margin:auto;
+    width:15%;
+    font-style:italic;
 }
 
-/* 
+.kanclprogramy th{
+    text-align:center;
+    font-size: 14px;   
+}
 
-- je potreba dodat fotografii
-- dodat ikonky do jenotlivych sekci
+
+.phone {
+    text-align: left;
+    font-weight: bold;
+    width: 25%;
+}
+
+.medium {
+    text-align:center;
+    width: 25%;
+    
+}
+
+.email {
+    text-align: center;
+}
+
+.mojefoto{
+    width: 120px;
+    border-radius: 50%;
+}
+
+.obrazek {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section img {
+    margin: 2px;
+}
+
+
+/* 
 - zkusit barevne nastylovat stranku
-- pokusit se udelat tabulku pro znalosti a dovednosti 
-- pokusit se upravit styly pro kurzy od Gopasu - aby nebylo tucne
-- poresit paticku 
+- vylepsit tabulku se znalostmi a dovednostmi - chybi power bi, snowflake a ridicak 
+- poresit paticku, kontakty a menu 
 */
