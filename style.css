@@ -19,10 +19,6 @@ body {
 
 }
 
-.kontakty img{
-    margin: 5px;
-}
-
 .paticka{
     text-align: center;
     padding: 20px 0;
@@ -31,11 +27,17 @@ body {
 
 }
 
-h3{
+h2{
     border-bottom: 2px solid #c0c0c0;
     margin-top: 1em;
     padding-top: 1em;
     color: #333;
+    font-size: 18px;
+
+}
+
+h3{
+    font-size: 15px;
 }
 
 
@@ -43,24 +45,19 @@ a{
     color: #e81c4f;
 }
 
-.fa-linkedin-square, .fa-medium{
+.fa-linkedin-square, .fa-medium, .material-icons{
     font-size: 20px;
     color: black;
     margin: 5px;
 }
 
 
-.material-icons{
-    margin: 5px;
-    
-}
-
 .kontakty table {
     width: 100%;
-    margin: 10px auto 10px auto;
-    border-spacing: 0;
-       
+    margin: auto;
+    border-spacing: 0;  
 }
+
 
 .kanclprogramy{
     width: 100%;
@@ -69,12 +66,6 @@ a{
     
 }
 
-td {
-    text-align: center;
-    padding: 3px;
-    font-size: 12px;
-    margin:0;
-}
 
 .kanclprogramy td {
     text-align: center;
@@ -88,6 +79,7 @@ td {
 .kanclprogramy th{
     text-align:center;
     font-size: 14px;   
+    width:15%;
 }
 
 
@@ -95,17 +87,22 @@ td {
     text-align: left;
     font-weight: bold;
     width: 25%;
+    font-size: 13px;
 }
 
 .medium {
     text-align:center;
     width: 25%;
+    font-size: 12px; 
     
 }
 
-.email {
+.email,.linkedin{
     text-align: center;
+    font-size: 12px;
 }
+
+
 
 .mojefoto{
     width: 120px;
@@ -120,11 +117,24 @@ td {
 
 section img {
     margin: 2px;
+    
 }
 
 
-/* 
-- zkusit barevne nastylovat stranku
-- vylepsit tabulku se znalostmi a dovednostmi - chybi power bi, snowflake a ridicak 
-- poresit paticku, kontakty a menu 
-*/
+.certifikace {
+    border-spacing: 0;
+    width: 100%;
+    
+}
+
+.certifikace td {
+    font-size: 12px; 
+    font-style: italic;
+    width: 50%;
+    margin-top: 100px;
+}
+
+.certifikace th {
+    vertical-align: top;
+}
+
