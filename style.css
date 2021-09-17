@@ -1,140 +1,126 @@
-h1{
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: #333;
-    margin:0px;
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #333;
+  margin: 0px;
 }
-
 
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 15px;
-    line-height: 1.5;
-    color: #555;
-    margin: 0 auto;
-    max-width: 50em;
-    padding: 4em 1em;
-    text-align: justify;
-
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #555;
+  margin: 0 auto;
+  max-width: 50em;
+  padding: 4em 1em;
+  text-align: justify;
 }
 
-.paticka{
-    text-align: center;
-    padding: 20px 0;
-    border-top: 2px solid #c0c0c0;
-    margin-top: 100px;
-
+.paticka {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 2px solid #c0c0c0;
+  margin-top: 100px;
 }
 
-h2{
-    border-bottom: 2px solid #c0c0c0;
-    margin-top: 1em;
-    padding-top: 1em;
-    color: #333;
-    font-size: 18px;
-
+h2 {
+  border-bottom: 2px solid #c0c0c0;
+  margin-top: 1em;
+  padding-top: 1em;
+  color: #333;
+  font-size: 18px;
 }
 
-h3{
-    font-size: 15px;
+h3 {
+  font-size: 15px;
 }
 
-
-a{
-    color: #e81c4f;
+a {
+  color: #e81c4f;
 }
 
-.fa-linkedin-square, .fa-medium, .material-icons{
-    font-size: 20px;
-    color: black;
-    margin: 5px;
+.fa-linkedin-square,
+.fa-medium,
+.material-icons {
+  font-size: 20px;
+  color: black;
+  margin: 5px;
 }
-
 
 .kontakty table {
-    width: 100%;
-    margin: auto;
-    border-spacing: 0;  
+  width: 100%;
+  margin: auto;
+  border-spacing: 0;
 }
 
-
-.kanclprogramy{
-    width: 100%;
-    border-spacing: 0;
-    margin-bottom: 40px;
-    
+.kanclprogramy {
+  width: 100%;
+  border-spacing: 0;
+  margin-bottom: 40px;
 }
-
 
 .kanclprogramy td {
-    text-align: center;
-    padding: 5px;
-    font-size: 12px;
-    margin:auto;
-    width:15%;
-    font-style:italic;
+  text-align: center;
+  padding: 5px;
+  font-size: 12px;
+  margin: auto;
+  width: 15%;
+  font-style: italic;
 }
 
-.kanclprogramy th{
-    text-align:center;
-    font-size: 14px;   
-    width:15%;
+.kanclprogramy th {
+  text-align: center;
+  font-size: 14px;
+  width: 15%;
 }
-
 
 .phone {
-    text-align: left;
-    font-weight: bold;
-    width: 25%;
-    font-size: 13px;
+  text-align: left;
+  font-weight: bold;
+  width: 25%;
+  font-size: 13px;
 }
 
 .medium {
-    text-align:center;
-    width: 25%;
-    font-size: 12px; 
-    
+  text-align: center;
+  width: 25%;
+  font-size: 12px;
 }
 
-.email,.linkedin{
-    text-align: center;
-    font-size: 12px;
+.email,
+.linkedin {
+  text-align: center;
+  font-size: 12px;
 }
 
-
-
-.mojefoto{
-    width: 120px;
-    border-radius: 50%;
+.mojefoto {
+  width: 120px;
+  border-radius: 50%;
 }
 
 .obrazek {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 section img {
-    margin: 2px;
-    
+  margin: 2px;
 }
 
-
 .certifikace {
-    border-spacing: 0;
-    width: 100%;
-    
+  border-spacing: 0;
+  width: 100%;
 }
 
 .certifikace td {
-    font-size: 12px; 
-    font-style: italic;
-    width: 50%;
-    margin-top: 100px;
+  font-size: 12px;
+  font-style: italic;
+  width: 50%;
+  margin-top: 100px;
 }
 
 .certifikace th {
-    vertical-align: top;
+  vertical-align: top;
 }
-
